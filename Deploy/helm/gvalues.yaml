@@ -12,6 +12,19 @@ inf:
       path: /webbff    
     cart:
       path: /cart-api
+
+B2C:
+  UseB2C: "false"
+  ReactAppUseB2C: "false"
+  Scopes: ""
+  B2CIssuer: ""
+  Authority: ""
+  tenantID: ""
+  clientID: ""
+  policyName: ""
+  identityMetadata: ""
+  issuer: ""
+
 az:
   productvisitsurl: ""
 
