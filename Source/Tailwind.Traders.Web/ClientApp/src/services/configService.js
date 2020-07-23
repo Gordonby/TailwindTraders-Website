@@ -17,8 +17,8 @@ const _HeadersConfig = (token, devspaces = undefined) => {
     }
 
     //lpk
-    headers['routing.visualstudio.io/route-from']='cart'
-    headers['routing.visualstudio.io/route-on-header'] ='kubernetes-route-as:lpkdemomvp'
+    headers['routing.visualstudio.io/route-from'] = 'cart';
+    headers['routing.visualstudio.io/route-on-header'] = 'kubernetes-route-as:lpkdemomvp';
 
     return { headers: headers };
 };
