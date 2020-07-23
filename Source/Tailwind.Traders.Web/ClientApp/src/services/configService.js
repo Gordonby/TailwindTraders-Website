@@ -16,6 +16,10 @@ const _HeadersConfig = (token, devspaces = undefined) => {
         headers['azds-route-as'] = devspaces;
     }
 
+    //lpk
+    headers['routing.visualstudio.io/route-from']='cart'
+    headers['routing.visualstudio.io/route-on-header'] ='kubernetes-route-as:lpkdemomvp'
+
     return { headers: headers };
 };
 
